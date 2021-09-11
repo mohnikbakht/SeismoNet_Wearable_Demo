@@ -1,4 +1,4 @@
-# Cardio Wearable Patch
+# Cardio Wireless Wearable Patch
 
 Seismocardiogram (SCG) is the measure of the thoracic vibrations produced by the heart’s contraction and the ejection of blood from the ventricles into the vascular tree. Today, the SCG can readily be detected by placing a low-noise accelerometer on the chest. 
 
