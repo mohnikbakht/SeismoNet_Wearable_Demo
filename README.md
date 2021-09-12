@@ -13,24 +13,24 @@ Here we developed a series of wireless wearable patches enabling easy recordings
 In all patches Nordic’s nRF52840 SoC was used to enable wireless communication using Bluetooth LE. The nRF52840 is built around a 32-bit ARM Cortex-M4 CPU, which makes it capable of interfacing with the sensors and storage units (microSD card) as well as Bluetooth data transfer. We used Bluetooth LE technology to minimize power consumption and maintain low power characteristics while transmitting data to keep the devices running for a longer period of time. To advance the measurement abilities, we developed a multi-node platform where multiple wireless nodes (patches) can record SCG and ECG signals with synchronized real-time clock (RTC) timers and store them locally on a microSD card and/or transmit them to a laptop, phone, or Google Glass through Bluetooth. This brings more flexibility in terms of sensor node placement as no wiring is required.
 
 The figure below shows the ECG/SCG patch, enables recording and storing/streaming of both SCG and ECG signals.\
-<img src="https://github.com/mohnikbakht/Cardio_Wearable_Patch_Demo/blob/main/Images/ECG_SCG_Patch.png" alt="Image of The ECG/SCG Patch" width="800"/>
+<img src="https://github.com/mohnikbakht/Cardio_Wearable_Patch_Demo/blob/main/Images/ECG_SCG_Patch.png" alt="Image of The ECG/SCG Patch" width="600"/>
 
 The figure below shows the SCG patch in two different packages which only records SCG signals.
 * a) Flexible package:
-<img src="https://github.com/mohnikbakht/Cardio_Wearable_Patch_Demo/blob/main/Images/SCG%20patch.jpg" alt="Image of The ECG/SCG Patch" width="350"/>
+<img src="https://github.com/mohnikbakht/Cardio_Wearable_Patch_Demo/blob/main/Images/SCG%20patch.jpg" alt="Image of The ECG/SCG Patch" width="300"/>
 
 * b) Rigid package:
-<img src="https://github.com/mohnikbakht/Cardio_Wearable_Patch_Demo/blob/main/Images/SCG_patch_2.png" alt="Image of The ECG/SCG Patch" width="350"/>
+<img src="https://github.com/mohnikbakht/Cardio_Wearable_Patch_Demo/blob/main/Images/SCG_patch_2.png" alt="Image of The ECG/SCG Patch" width="300"/>
 
 *A signle firmware is written for all patches in C (using #if directives) and in a way that they can connect and communicate with each other for the multi-node applications.* 
 
 ## Sample Data
 
 A 50s window sample of the recorded SCG and ECG using these patches:
-<img src="https://github.com/mohnikbakht/Cardio_Wearable_Patch_Demo/blob/main/Images/data_sample_1.png" alt="Image of The ECG/SCG Patch" width="500"/>
+<img src="https://github.com/mohnikbakht/Cardio_Wearable_Patch_Demo/blob/main/Images/data_sample_1.png" alt="Image of The ECG/SCG Patch" width="700"/>
 
 Zoomed in 9s window sample of the recorded SCG and ECG using these patches:
-<img src="https://github.com/mohnikbakht/Cardio_Wearable_Patch_Demo/blob/main/Images/data_sample_2.png" alt="Image of The ECG/SCG Patch" width="500"/>
+<img src="https://github.com/mohnikbakht/Cardio_Wearable_Patch_Demo/blob/main/Images/data_sample_2.png" alt="Image of The ECG/SCG Patch" width="700"/>
 
 
 
