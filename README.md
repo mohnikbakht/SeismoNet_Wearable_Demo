@@ -15,8 +15,11 @@ In all patches Nordic’s nRF52840 SoC was used to enable wireless communication
 The figure below shows the ECG/SCG patch, enables recording and storing/streaming of both SCG and ECG signals.\
 <img src="https://github.com/mohnikbakht/Cardio_Wearable_Patch_Demo/blob/main/Images/ECG_SCG_Patch.png" alt="Image of The ECG/SCG Patch" width="800"/>
 
-The figure below shows the SCG patch which only records SCG signals.
+The figure below shows the SCG patch in two different packages which only records SCG signals.
+a) Flexible package:
 <img src="https://github.com/mohnikbakht/Cardio_Wearable_Patch_Demo/blob/main/Images/SCG%20patch.jpg" alt="Image of The ECG/SCG Patch" width="350"/>
+b) Rigid package:
+<img src="https://github.com/mohnikbakht/Cardio_Wearable_Patch_Demo/blob/main/Images/SCG_patch_2.png" alt="Image of The ECG/SCG Patch" width="350"/>
 
 A signle firmware is written for all patches in C (using #if directives) and in a way that they can connect and communicate with each other for the multi-node applications. 
 
