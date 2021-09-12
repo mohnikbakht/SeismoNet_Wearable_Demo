@@ -22,7 +22,7 @@ The figure below shows the SCG patch in two different packages which only record
 * b) Rigid package:
 <img src="https://github.com/mohnikbakht/Cardio_Wearable_Patch_Demo/blob/main/Images/SCG_patch_2.png" alt="Image of The ECG/SCG Patch" width="350"/>
 
-A signle firmware is written for all patches in C (using #if directives) and in a way that they can connect and communicate with each other for the multi-node applications. 
+*A signle firmware is written for all patches in C (using #if directives) and in a way that they can connect and communicate with each other for the multi-node applications.* 
 
 ## Sample Data
 
