@@ -23,3 +23,8 @@ A signle firmware is written for all patches in C (using #if directives) and in 
 ## Sample Data
 
 ## User Interfaces
+
+We designed graphical interfaces on three different platforms for these wearables that enable easy interface for data collection:
+1) Windows App (C#) -> [link to Our Windows App!](https://github.com/mohnikbakht/Windows_App_Demo)
+2) Phone App (React-Native) -> [link to Our Phone App!](https://github.com/mohnikbakht/React_Native_Phone_App_Demo)
+3) Google Glass App (Kotlin) -> [link to Our Phone App!](https://github.com/mohnikbakht/Google_Glass_App_Demo)
