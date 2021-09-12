@@ -26,6 +26,14 @@ The figure below shows the SCG patch in two different packages which only record
 
 ## Sample Data
 
+A 50s window sample of the recorded SCG and ECG using these patches:
+<img src="https://github.com/mohnikbakht/Cardio_Wearable_Patch_Demo/blob/main/Images/data_sample_1.png" alt="Image of The ECG/SCG Patch" width="500"/>
+
+Zoomed in 9s window sample of the recorded SCG and ECG using these patches:
+<img src="https://github.com/mohnikbakht/Cardio_Wearable_Patch_Demo/blob/main/Images/data_sample_2.png" alt="Image of The ECG/SCG Patch" width="500"/>
+
+
+
 ## User Interfaces
 
 We designed graphical interfaces on three different platforms for these wearables that enable easy interface for data collection:
