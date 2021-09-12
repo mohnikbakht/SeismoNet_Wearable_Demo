@@ -24,7 +24,7 @@ The figure below shows the SCG patch in two different packages which only record
 
 *A signle firmware is written for all patches in C (using #if directives) and in a way that they can connect and communicate with each other for the multi-node applications.* 
 
-## Sample Data
+## Recording Sample
 
 A 50s window sample of the recorded SCG and ECG using these patches:
 <img src="https://github.com/mohnikbakht/Cardio_Wearable_Patch_Demo/blob/main/Images/data_sample_1.png" alt="Image of The ECG/SCG Patch" width="700"/>
@@ -34,7 +34,7 @@ Zoomed in 9s window sample of the recorded SCG and ECG using these patches:
 
 
 
-## User Interfaces
+## Graphical User Interfaces (GUIs)
 
 We designed graphical interfaces on three different platforms for these wearables that enable easy interface for data collection:
 1) Windows App (C#) -> [link to Our Windows App Demo!](https://github.com/mohnikbakht/Windows_App_Demo)
