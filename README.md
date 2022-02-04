@@ -16,7 +16,7 @@ The figure below shows the ECG/SCG patch, enables recording and storing/streamin
 
 <p align="center">
 <img src="https://github.com/mohnikbakht/Cardio_Wearable_Patch_Demo/blob/main/Images/ECG_SCG_Patch.png" alt="Image of The ECG/SCG Patch" width="600"/>
-</p.
+</p>
 
 The figure below shows one of the patches in a flexible housing (in developement...).
 
