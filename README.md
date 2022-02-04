@@ -35,4 +35,4 @@ Zoomed in 9s window sample of the recorded SCG and ECG using these patches:
 I designed graphical interfaces on three different platforms for these wearables that enable easy interface for data collection:
 1) Windows App (C#) -> [link to My Windows App Demo!](https://github.com/mohnikbakht/SeismoNet_Windows_GUI_Demo)
 2) Phone App (React-Native) -> [link to My Phone App Demo!](https://github.com/mohnikbakht/SeismoNet_React_Native_GUI_Demo)
-3) Google Glass App (Kotlin) -> [link to My Glass App Demo!](https://github.com/mohnikbakht/SeismoNet-Google_Glass_GUI_Demo)
+3) Google Glass App (Kotlin) -> [link to My Glass App Demo!](https://github.com/mohnikbakht/SeismoNet_Google_Glass_GUI_Demo)
