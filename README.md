@@ -6,7 +6,7 @@ Electrocardiogram (ECG) signal reflects the electrical activity of the heart obs
 
 These signals fiducial points correspond to characteristic events in the cardiac cycle. For the SCG, the labels correspond to the physiological event they are believed to represent: MC, mitral valve closure; IVC, isovolumetric contraction; AO, aortic valve opening; RE, rapid ejection; AC, aortic valve closure; MO, mitral valve open- ing; and RF, rapid filling.
 
-Here we developed a series of wireless wearable patches enabling easy recordings of ECG and SCG signals for cardiovascular health related studies. Further, a multinode platform is developed where multiple patches can record at the same time with a wirelessly synced RTC timer.
+Here I developed a network of wireless wearable patches (SeismoNet) enabling  recordings of ECG and SCG signals from multiple locations for cardiovascular health related studies. The patches can record at the same time with a wirelessly synced RTC timer.
 
 ## The Hardware
 
@@ -15,12 +15,8 @@ In all patches Nordic’s nRF52840 SoC was used to enable wireless communication
 The figure below shows the ECG/SCG patch, enables recording and storing/streaming of both SCG and ECG signals.\
 <img src="https://github.com/mohnikbakht/Cardio_Wearable_Patch_Demo/blob/main/Images/ECG_SCG_Patch.png" alt="Image of The ECG/SCG Patch" width="600"/>
 
-The figure below shows the SCG patch in two different packages which only records SCG signals.
-* a) Flexible package:
+The figure below shows one of the patches in a flexible housing (in developement...).
 <img src="https://github.com/mohnikbakht/Cardio_Wearable_Patch_Demo/blob/main/Images/SCG%20patch.jpg" alt="Image of The ECG/SCG Patch" width="300"/>
-
-* b) Rigid package:
-<img src="https://github.com/mohnikbakht/Cardio_Wearable_Patch_Demo/blob/main/Images/SCG_patch_2.png" alt="Image of The ECG/SCG Patch" width="300"/>
 
 *A signle firmware is written for all patches in C (using #if directives) and in a way that they can connect and communicate with each other for the multi-node applications.* 
 
@@ -36,7 +32,7 @@ Zoomed in 9s window sample of the recorded SCG and ECG using these patches:
 
 ## Graphical User Interfaces (GUIs)
 
-We designed graphical interfaces on three different platforms for these wearables that enable easy interface for data collection:
-1) Windows App (C#) -> [link to My Windows App Demo!](https://github.com/mohnikbakht/Windows_App_Demo)
-2) Phone App (React-Native) -> [link to My Phone App Demo!](https://github.com/mohnikbakht/React_Native_Phone_App_Demo)
-3) Google Glass App (Kotlin) -> [link to My Glass App Demo!](https://github.com/mohnikbakht/Google_Glass_App_Demo)
+I designed graphical interfaces on three different platforms for these wearables that enable easy interface for data collection:
+1) Windows App (C#) -> [link to My Windows App Demo!](https://github.com/mohnikbakht/SeismoNet_Windows_GUI_Demo)
+2) Phone App (React-Native) -> [link to My Phone App Demo!](https://github.com/mohnikbakht/SeismoNet_React_Native_Phone_GUI_Demo)
+3) Google Glass App (Kotlin) -> [link to My Glass App Demo!](https://github.com/mohnikbakht/SeismoNet_Google_Glass_GUI_Demo)
